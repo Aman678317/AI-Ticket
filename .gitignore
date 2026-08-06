@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+backend/__pycache__/
+*.pyc
+
+# Environment & Secrets (DO NOT PUSH API KEYS)
+.env
+backend/.env
+
+# Local Database & SQLite files
+*.db
+tickets_ai.db
+
+# Build outputs
+frontend/dist/
+frontend/build/
+.cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
